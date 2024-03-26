@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Login Form with validation Example</title>
+
+<style>
+body {
+  background-color: #9f9da7;
+}
+
+#login-form-wrap {
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+#login-form {
+  padding: 0 60px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 40px;
+}
+
+input[type="submit"] {
+  background-color: #3ca9e2;
+  color: #fff;
+  cursor: pointer;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="login-form-wrap">
+  <h2>Login</h2>
+  <form id="login-form">
+    <p>
+    <input type="text" id="username" name="username" placeholder="Username" required>
+    </p>
+    <p>
+    <input type="email" id="email" name="email" placeholder="Email Address" required>
+    </p>
+    <p>
+    <input type="submit" id="login" value="Login">
+    </p>
+  </form>
+</div>
+</body>
+</html>
