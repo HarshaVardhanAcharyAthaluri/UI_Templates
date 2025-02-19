@@ -1,0 +1,21 @@
+.navbar{
+    background-color: teal;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0px 2px 15px;
+    height: 34px;
+}
+
+.navbar,li{
+    list-style-type: none;
+}
+.navbar,a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+}
+
+.content{
+    margin: auto;
+    text-align: center;
+}
